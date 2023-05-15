@@ -64,45 +64,45 @@ namespace CursoCSharp.Fundamentos
 
             //Ex4
 
-            Console.WriteLine("Escreva seu peso");
-            double peso = double.Parse(Console.ReadLine());
-            Console.WriteLine("Escreva sua altura");
-            double altura = double.Parse(Console.ReadLine());
-
-
-            Console.WriteLine($"{peso / (altura * altura)}={peso / (altura * altura)}");
-            if (peso / (altura * altura) <= 18.5)
-            {
-                Console.WriteLine("Vc esta abaixo do peso");
-
-            }
-            if (peso / (altura * altura) >= 18.5 && peso / (altura * altura) <= 24.9)
-            {
-                Console.WriteLine("Peso normal");
-
-            }
-            if (peso / (altura * altura) >= 24.9&& peso / (altura * altura) <= 29.9)
-            {
-                Console.WriteLine("Acima do Peso");
-
-            }
-            if (peso / (altura * altura) >= 29.9 && peso / (altura * altura) <= 34.9)
-            {
-                Console.WriteLine("Ob. grau 1");
-
-            }
-
-            if (peso / (altura * altura) >= 34.9 && peso / (altura * altura) <= 39.9)
-            {
-                Console.WriteLine("Ob. grau 2");
-
-            }
-            if (peso / (altura * altura) >39.9)
-            {
-                Console.WriteLine("Ob. grau 3");
-
-            }
-
+            //Console.WriteLine("Escreva seu peso");
+           // double peso = double.Parse(Console.ReadLine());
+           // Console.WriteLine("Escreva sua altura");
+           // double altura = double.Parse(Console.ReadLine());
+           //
+           //
+           // Console.WriteLine($"{peso / (altura * altura)}={peso / (altura * altura)}");
+           // if (peso / (altura * altura) <= 18.5)
+           // {
+           //     Console.WriteLine("Vc esta abaixo do peso");
+           //
+           // }
+           // if (peso / (altura * altura) >= 18.5 && peso / (altura * altura) <= 24.9)
+           // {
+           //     Console.WriteLine("Peso normal");
+           //
+           // }
+           // if (peso / (altura * altura) >= 24.9&& peso / (altura * altura) <= 29.9)
+           // {
+           //     Console.WriteLine("Acima do Peso");
+           //
+           // }
+           // if (peso / (altura * altura) >= 29.9 && peso / (altura * altura) <= 34.9)
+           // {
+           //     Console.WriteLine("Ob. grau 1");
+           //
+           // }
+           //
+           // if (peso / (altura * altura) >= 34.9 && peso / (altura * altura) <= 39.9)
+           // {
+           //     Console.WriteLine("Ob. grau 2");
+         
+           // }
+           // if (peso / (altura * altura) >39.9)
+           // {
+           //     Console.WriteLine("Ob. grau 3");
+           //
+           // }
+           //
 
         }
 
