@@ -17,7 +17,8 @@ namespace CursoCSharp {
                 {"Ex 1 - Fundamnetos",Exercicios.Executar },
                 {"Operadores Relacionais - Fundamentos",OperadoresRelacionais.Executar },
                 {"ExerciciosNovos - Fundamentos",ExerciciosNovos.Executar },
-                {"Estrutura if - Fundamentos",EstruturaIf.Executar}
+                {"Estrutura if - Fundamentos",EstruturaIf.Executar},
+                {"Estrutura Switch - Fundamentos",EstruturaSwitch.Executar}
             
             });
 
