@@ -49,22 +49,22 @@ namespace CursoCSharp.Fundamentos
             //EXERCICIO 3
 
 
-            int resultado;
-            int contador = 0;
-
-            Console.WriteLine("digite um numero");
-
-            int n1 = int.Parse(Console.ReadLine());
-
-            while (contador <= 10)
-            {
-                resultado = contador * n1;
-
-                Console.WriteLine($" {n1} * {contador} = {resultado}");
-                contador++;
-            }
-
-
+          //int resultado;
+          //int contador = 0;
+          //
+          //Console.WriteLine("digite um numero");
+          //
+          //int n1 = int.Parse(Console.ReadLine());
+          //
+          //while (contador <= 10)
+          //{
+          //    resultado = contador * n1;
+          //
+          //    Console.WriteLine($" {n1} * {contador} = {resultado}");
+          //    contador++;
+          //}
+          //
+          //
 
 
 
