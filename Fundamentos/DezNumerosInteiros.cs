@@ -43,7 +43,7 @@ namespace CursoCSharp.Fundamentos
 
             //    Console.WriteLine(contador);
 
-            //    contador--;
+            //    contador++;
             //   }
 
             //EXERCICIO 3

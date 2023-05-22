@@ -20,7 +20,8 @@ namespace CursoCSharp {
                 {"Estrutura if - Fundamentos",EstruturaIf.Executar},
                 {"Estrutura Switch - Fundamentos",EstruturaSwitch.Executar},
                 { "Estrutura de While e For - Fundamentos",EstruturaWhileEFor.Executar},
-                {"Dez Numeros Inteiros - Fundamentos",DezNumerosInteiros.Executar }
+                {"Dez Numeros Inteiros - Fundamentos",DezNumerosInteiros.Executar},
+                {"Estrutura Foreach - Fundamentos",EstruturaForeach.Executar}
             
             });
 
