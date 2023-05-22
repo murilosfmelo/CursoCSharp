@@ -17,6 +17,8 @@ namespace CursoCSharp.Fundamentos
                 Console.WriteLine(contador);
             }
 
+            // /for 
+
 
 
 
@@ -37,19 +39,19 @@ namespace CursoCSharp.Fundamentos
 
 
 
-            //Console.WriteLine("Até quanto vc quer contar?");
-            //int.TryParse(Console.ReadLine(), out int valor);
+           Console.WriteLine("Até quanto vc quer contar?");
+           int.TryParse(Console.ReadLine(), out int valor);
             ////SALTOS
-            //Console.WriteLine("Qual valor dos saltos");
-            //int.TryParse(Console.ReadLine(), out int saltos);
-            //
-            //   
-            //int contador = 1;
-            //while (contador <=valor) {
-            //
-            //    Console.WriteLine(contador);
-            //    //Fazer saltos
-            //    contador+=saltos;
+          Console.WriteLine("Qual valor dos saltos");
+            int.TryParse(Console.ReadLine(), out int saltos);
+           
+             
+           int contador = 1;
+         while (contador <=valor) {
+          
+           Console.WriteLine(contador);
+            //Fazer saltos
+             contador+=saltos;
 
 
 
@@ -57,14 +59,14 @@ namespace CursoCSharp.Fundamentos
 
             //
             //// /WHILE   
-            
-            
-            }
+
+
+        }
 
 
 
 
-}
+    }
 
     }
 
