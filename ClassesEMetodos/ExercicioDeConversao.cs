@@ -8,7 +8,7 @@ namespace CursoCSharp.ClassesEMetodos
 {
     class ExercicioDeConversao
     {
-        public static Action Executar { get; internal set; }
+       
 
         class Dolar
         {

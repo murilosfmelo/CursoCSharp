@@ -28,8 +28,9 @@ namespace CursoCSharp {
                 {"Membros - Classes e Métodos",Membros.Executar},
                 {"Construtores - Classes e Métodos",Construtores.Executar},
                 {"Métodos com Retorno - Classes e Métodos",MetodosComRetorno.Executar },
-                {"Exercicios de Conversão - Classes e Metodos",ExercicioDeConversao.Executar},
-                {"Exercicios Dois - Classes e Metodos",ExercicioDois.Executar}
+               // {"Exercicios de Conversão - Classes e Metodos",ExercicioDeConversao.Executar},
+               // {"Exercicios Dois - Classes e Metodos",ExercicioDois.Executar},
+                {"Metodos Estaticos - Classes e Metodos",MetodosEstaticos.Executar }
             }); ;
 
             central.SelecionarEExecutar();

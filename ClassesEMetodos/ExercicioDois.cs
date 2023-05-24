@@ -41,9 +41,5 @@ namespace CursoCSharp.ClassesEMetodos
 
         }
 
-        internal static void Executar()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
