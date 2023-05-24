@@ -4,26 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    class OperadoresAritmeticos
-    {
+namespace CursoCSharp.Fundamentos {
+    class OperadoresAritmeticos {
+
         public static void Executar() {
-            Console.WriteLine("Escreva um numero");
-            int n1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Escreva outro numero");
-            int n2 = int.Parse(Console.ReadLine());
-        
 
-            Console.WriteLine($"{n1} + {n2} = {n1+n2}");
-            Console.WriteLine($"{n1} / {n2} = {n1 / n2}");
-            Console.WriteLine($"{n1} - {n2} = {n1 - n2}");
-            Console.WriteLine($"{n1} * {n2} = {n1 * n2}");
-            Console.WriteLine($"{n1} % {n2} = {n1 % n2}");
-
-            
+            Console.WriteLine("Digite um número: ");
+            double n1 = double.Parse(Console.ReadLine());
 
 
+            Console.WriteLine("Digite outro número: ");
+            double n2 = double.Parse(Console.ReadLine());
+
+            double resultado = n1 + n2;
+
+            Console.WriteLine($"A soma total foi de {resultado.ToString("#.##")}");
 
         }
     }

@@ -5,18 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
-    class NotacaoPonto {
+    class ExerciciosOperadores {
 
         public static void Executar() {
-
-            //notãção ponto ToUpper
-            string saudacao = "Olá".ToUpper().Insert(3, " World!").Replace("World", "Mundo");
-            Console.WriteLine(saudacao);
-
-
-
-
-
+            Console.WriteLine("oi \n");
+            Console.WriteLine("oi \n dfklsdf");
 
         }
     }
