@@ -47,8 +47,8 @@ namespace CursoCSharp.ClassesEMetodos
         {
 
             Console.WriteLine($"N1 {N1}");
-            Console.WriteLine($"N2{N2}");
-            Console.WriteLine($"N3{N3}");
+            Console.WriteLine($"N2 {N2}");
+            Console.WriteLine($"N3 {N3}");
             Console.WriteLine($"Resultado é {(N1 + N2 + N3) / 3}");
 
         }
