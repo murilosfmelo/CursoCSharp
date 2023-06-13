@@ -36,7 +36,11 @@ namespace CursoCSharp {
                   {"Get e Set Segundo Exemplo  - Classes e Metodos",GetESetSegundoExemplo.Executar },
                   {"Exercícios de Get e Set  - Classes e Metodos",ExerciciosDeGetESet.Executar},
                   {"Exercícios 2  - Classes e Metodos",Ex2_Notas.Executar},
-                {"Exercicios 3 - Classes e Metodos",Ex3Animal.Executar}
+                {"Exercicios 3 - Classes e Metodos",Ex3Animal.Executar},
+
+                //Coleções
+                {"Colecoes Que Eu - Colecoes",Colecoes.ColecoesQueue.Executar },
+                {"Colecoes Stack - Colecoes",Colecoes.ColecoesStack.Executar }
             }); ;
 
             central.SelecionarEExecutar();
