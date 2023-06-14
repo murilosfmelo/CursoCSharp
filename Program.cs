@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
+using CursoCSharp.POO;
 
-
-namespace CursoCSharp {
-    class Program {
+namespace CursoCSharp{
+    class Program{
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
@@ -42,7 +43,6 @@ namespace CursoCSharp {
                 //Coleções
                 {"Colecoes Que Eu - Colecoes",Colecoes.ColecoesQueue.Executar },
                 {"Colecoes Stack - Colecoes",Colecoes.ColecoesStack.Executar },
-
 
                 //Abstract - POO
                 {"Abstract - POO",POO.Abstract.Executar }

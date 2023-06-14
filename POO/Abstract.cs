@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.POO
-{
+namespace CursoCSharp.POO{
     class Abstract
     {
         public abstract class Celular
@@ -21,6 +20,7 @@ namespace CursoCSharp.POO
 
         public class Samsung : Celular
         {
+            //override serve para "reescrever" o cod. da classe indicada
             public override string Assistente()
             {
 
@@ -29,10 +29,32 @@ namespace CursoCSharp.POO
 
         }
 
+
+
+        public class Iphone : Celular
+        {
+            public override string Assistente()
+            {
+
+                return "Olá meu nome é Siri";
+
+            }
+        }
         public static void Executar()
         {
 
             //  Celular c = new Celular();
+
+            var celulares = new List<Celular> {
+
+            new Samsung(),
+            new Iphone()
+            };
+
+            foreach (var celular in celulares)
+            {
+                Console.WriteLine(celular.Assistente());
+            }
 
 
         }
