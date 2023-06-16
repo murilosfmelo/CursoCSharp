@@ -29,7 +29,7 @@ namespace CursoCSharp.POO
         }*/
 
         //classe que vai conseguir herdar por causa do metodo virtual
-       
+
         class Avo
         {
             //metodos virtuais podem ser sobrescritos
@@ -42,11 +42,36 @@ namespace CursoCSharp.POO
 
         }
 
+        class Pai : Avo
+        {
+
+            public override bool HonrarNomeFamilia()
+            {
+                return true;
+            }
+
+        }
+
+        class FilhoRebelde : Pai
+        {
+
+            public override bool HonrarNomeFamilia()
+            {
+                return false;
+            }
+
+        }
+
 
         public static void Executar()
         {
 
+            SemFilho semFilho = new SemFilho();
+            Console.WriteLine(semFilho.ValorDaFortuna());
 
+            FilhoRebelde filho = new FilhoRebelde();
+            Console.WriteLine(filho.HonrarNomeFamilia());
+            Console.WriteLine();
 
         }
     }

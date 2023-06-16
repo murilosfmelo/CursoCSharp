@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 using CursoCSharp.POO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
 
 namespace CursoCSharp{
     class Program{
@@ -40,13 +43,23 @@ namespace CursoCSharp{
                 {"Exercicios 3 - Classes e Metodos",Ex3Animal.Executar},
 
                 //Coleções
-                {"Colecoes Que Eu - Colecoes",Colecoes.ColecoesQueue.Executar },
-                {"Colecoes Stack - Colecoes",Colecoes.ColecoesStack.Executar },
+                {"Colecoes Que Eu - Colecoes",ColecoesQueue.Executar},
+                {"Colecoes Stack - Colecoes",ColecoesStack.Executar},
 
                 //Programação Orientação a Objetos- POO
-                {"Abstract - POO",Abstract.Executar },
-                {"Sealed - POO",Sealed.Executar }
-            }); ;
+                {"Abstract - POO",Abstract.Executar},
+                {"Sealed - POO",Sealed.Executar},
+
+                //Métodos e Funções
+
+               {"Exemplo Lambda - Métodos e Funções",ExemploLamdba.Executar},
+                {"Ex. Lambda - Métodos e Funções",ParEImpar.Executar},
+
+
+                //Exceções
+
+                {"Primeira Exceção - Exceções",PrimeiraExcecao.Executar }
+            }); 
 
             central.SelecionarEExecutar();
         }
